@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html><head>
+    
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Kamil Stoch</title>
+
+
+
+    
+  <script type="text/javascript" async="" src="./index_files/recaptcha__ru.js" crossorigin="anonymous" integrity="sha384-5ytfQ6nJGZI32BNaF94kSKKsFBLlsKZHx9+561GKHVgUmaqaee3FA3dmdWzk4aEL"></script><script type="text/javascript" async="" id="recaptcha-js" src="./index_files/api.js"></script><script type="text/javascript" async="" src="./index_files/stats.js" id="zstats"></script><script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.rawgit.com/ricmoo/aes-js/e27b99df/index.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/scriptjs@2.5.9/dist/script.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn-de.js-app-track.ru/cdn/collector.js" crossorigin="anonymous"></script>
+
+
+    
+
+<meta name="viewport" content="width=device-width">
+
+
+<link rel="stylesheet" media="screen" href="./index_files/application-4f8ca522a2164257350f1f76dd448fe918d5cd4ac2db1c75a0b1a7211653b06e.css">
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600');
+:root {
+  --title-nav-container-color-rgba: hsla(197, 83%, 49%, 0.0);
+--title-nav-container-color-color: hsla(197, 83%, 49%, 0.0);
+--title-nav-container-color-rgba-hsl: 197, 83%, 49%;
+--title-nav-container-color-rgba-h: 197;
+--title-nav-container-color-rgba-s: 83;
+--title-nav-container-color-rgba-l: 49;
+--title-nav-container-color-rgba-a: 0.0;
+--text-color: hsl(0, 0%, 100%);
+--text-color-hsl: 0, 0%, 100%;
+--text-color-h: 0;
+--text-color-s: 0;
+--text-color-l: 100;
+--text-color-a: 1.0;
+--link-color: hsl(0, 0%, 100%);
+--link-color-hsl: 0, 0%, 100%;
+--link-color-h: 0;
+--link-color-s: 0;
+--link-color-l: 100;
+--link-color-a: 1.0;
+--feature-title-color: hsl(0, 0%, 100%);
+--feature-title-color-hsl: 0, 0%, 100%;
+--feature-title-color-h: 0;
+--feature-title-color-s: 0;
+--feature-title-color-l: 100;
+--feature-title-color-a: 1.0;
+--nav-link-color: hsl(0, 0%, 100%);
+--nav-link-color-hsl: 0, 0%, 100%;
+--nav-link-color-h: 0;
+--nav-link-color-s: 0;
+--nav-link-color-l: 100;
+--nav-link-color-a: 1.0;
+--nav-link-rollover-color: hsl(0, 0%, 100%);
+--nav-link-rollover-color-hsl: 0, 0%, 100%;
+--nav-link-rollover-color-h: 0;
+--nav-link-rollover-color-s: 0;
+--nav-link-rollover-color-l: 100;
+--nav-link-rollover-color-a: 1.0;
+--sub-menu-background-color: hsl(0, 0%, 100%);
+--sub-menu-background-color-hsl: 0, 0%, 100%;
+--sub-menu-background-color-h: 0;
+--sub-menu-background-color-s: 0;
+--sub-menu-background-color-l: 100;
+--sub-menu-background-color-a: 1.0;
+--sub-menu-link-color: hsl(227, 96%, 56%);
+--sub-menu-link-color-hsl: 227, 96%, 56%;
+--sub-menu-link-color-h: 227;
+--sub-menu-link-color-s: 96;
+--sub-menu-link-color-l: 56;
+--sub-menu-link-color-a: 1.0;
+--page-title-color: hsl(0, 0%, 100%);
+--page-title-color-hsl: 0, 0%, 100%;
+--page-title-color-h: 0;
+--page-title-color-s: 0;
+--page-title-color-l: 100;
+--page-title-color-a: 1.0;
+--page-background-color: hsl(227, 97%, 56%);
+--page-background-color-hsl: 227, 97%, 56%;
+--page-background-color-h: 227;
+--page-background-color-s: 97;
+--page-background-color-l: 56;
+--page-background-color-a: 1.0;
+--background-color-opacity-number: 100%;
+--background-color-opacity-number-unitless: 100;
+--background-image-opacity-number: 100%;
+--background-image-opacity-number-unitless: 100;
+--theme-page-background-rgba: hsl(227, 96%, 56%);
+--theme-page-background-color: hsl(227, 96%, 56%);
+--theme-page-background-rgba-hsl: 227, 96%, 56%;
+--theme-page-background-rgba-h: 227;
+--theme-page-background-rgba-s: 96;
+--theme-page-background-rgba-l: 56;
+--theme-page-background-rgba-a: 1.0;
+--page-background-image: none;
+--page-background-image-original-width: 0px;
+--page-background-image-original-height: 0px;
+--swmp-use-custom-colors-boolean: true;
+--swmp-background-color: hsl(0, 0%, 100%);
+--swmp-background-color-hsl: 0, 0%, 100%;
+--swmp-background-color-h: 0;
+--swmp-background-color-s: 0;
+--swmp-background-color-l: 100;
+--swmp-background-color-a: 1.0;
+--swmp-text-color-enum: black;
+--site-wide-my-sites-size-number: 2.5rem;
+--site-wide-my-sites-size-number-unitless: 2.5;
+--site-wide-my-sites-rgba: hsl(0, 0%, 100%);
+--site-wide-my-sites-color: hsl(0, 0%, 100%);
+--site-wide-my-sites-rgba-hsl: 0, 0%, 100%;
+--site-wide-my-sites-rgba-h: 0;
+--site-wide-my-sites-rgba-s: 0;
+--site-wide-my-sites-rgba-l: 100;
+--site-wide-my-sites-rgba-a: 1.0;
+--site-wide-my-sites-hover-rgba: hsl(0, 0%, 100%);
+--site-wide-my-sites-hover-color: hsl(0, 0%, 100%);
+--site-wide-my-sites-hover-rgba-hsl: 0, 0%, 100%;
+--site-wide-my-sites-hover-rgba-h: 0;
+--site-wide-my-sites-hover-rgba-s: 0;
+--site-wide-my-sites-hover-rgba-l: 100;
+--site-wide-my-sites-hover-rgba-a: 1.0;
+--mobile-nav-background-color: hsl(0, 0%, 100%);
+--mobile-nav-background-color-hsl: 0, 0%, 100%;
+--mobile-nav-background-color-h: 0;
+--mobile-nav-background-color-s: 0;
+--mobile-nav-background-color-l: 100;
+--mobile-nav-background-color-a: 1.0;
+--page-title-type-enum: text;
+--page-title-logo-background-image: none;
+--page-title-logo-background-image-original-width: 0px;
+--page-title-logo-background-image-original-height: 0px;
+--page-title-string: "Kamil Stoch";
+--page-title-logo-size-number: 10%;
+--page-title-logo-size-number-unitless: 10;
+--intro-page-background-color: hsl(0, 0%, 100%);
+--intro-page-background-color-hsl: 0, 0%, 100%;
+--intro-page-background-color-h: 0;
+--intro-page-background-color-s: 0;
+--intro-page-background-color-l: 100;
+--intro-page-background-color-a: 1.0;
+--intro-page-text-color: hsl(0, 0%, 0%);
+--intro-page-text-color-hsl: 0, 0%, 0%;
+--intro-page-text-color-h: 0;
+--intro-page-text-color-s: 0;
+--intro-page-text-color-l: 0;
+--intro-page-text-color-a: 1.0;
+--mobile-nav-link-color: hsl(227, 96%, 56%);
+--mobile-nav-link-color-hsl: 227, 96%, 56%;
+--mobile-nav-link-color-h: 227;
+--mobile-nav-link-color-s: 96;
+--mobile-nav-link-color-l: 56;
+--mobile-nav-link-color-a: 1.0;
+--content-lineheight-number: 1.6;
+--content-lineheight-number-unitless: 1.6;
+--button-color: hsl(0, 0%, 100%);
+--button-color-hsl: 0, 0%, 100%;
+--button-color-h: 0;
+--button-color-s: 0;
+--button-color-l: 100;
+--button-color-a: 1.0;
+--button-hover-color: hsl(0, 0%, 100%);
+--button-hover-color-hsl: 0, 0%, 100%;
+--button-hover-color-h: 0;
+--button-hover-color-s: 0;
+--button-hover-color-l: 100;
+--button-hover-color-a: 1.0;
+--button-shape-enum: square;
+--button-style-enum: solid;
+--page-title-typeface-style: "bold";
+--page-title-typeface-style-stylesheet: "https://fonts.googleapis.com/css?family=Montserrat:700";
+--page-title-typeface-style-stack: 'Montserrat', sans-serif;
+--page-title-typeface-style-font-weight: 700;
+--page-title-typeface-style-font-style: normal;
+--page-title-typeface-size-number: 120px;
+--page-title-typeface-size-number-unitless: 120;
+--page-title-uppercase-boolean: true;
+--page-title-letterspacing-number: 0em;
+--page-title-letterspacing-number-unitless: 0;
+--heading-typeface-style: "bold";
+--heading-typeface-style-stylesheet: "https://fonts.googleapis.com/css?family=Montserrat:700";
+--heading-typeface-style-stack: 'Montserrat', sans-serif;
+--heading-typeface-style-font-weight: 700;
+--heading-typeface-style-font-style: normal;
+--heading-typeface-size-number: 35px;
+--heading-typeface-size-number-unitless: 35;
+--heading-uppercase-boolean: true;
+--content-typeface-style: "semibold";
+--content-typeface-style-stylesheet: "https://fonts.googleapis.com/css?family=Montserrat:600";
+--content-typeface-style-stack: 'Montserrat', sans-serif;
+--content-typeface-style-font-weight: 600;
+--content-typeface-style-font-style: normal;
+--content-typeface-size-number: 20px;
+--content-typeface-size-number-unitless: 20;
+--content-uppercase-boolean: false;
+--feature-title-typeface-style: "bold";
+--feature-title-typeface-style-stylesheet: "https://fonts.googleapis.com/css?family=Montserrat:700";
+--feature-title-typeface-style-stack: 'Montserrat', sans-serif;
+--feature-title-typeface-style-font-weight: 700;
+--feature-title-typeface-style-font-style: normal;
+--feature-title-typeface-size-number: 50px;
+--feature-title-typeface-size-number-unitless: 50;
+--feature-title-uppercase-boolean: true;
+--feature-title-letterspacing-number: 0em;
+--feature-title-letterspacing-number-unitless: 0;
+--menu-item-typeface-style: "semibold";
+--menu-item-typeface-style-stylesheet: "https://fonts.googleapis.com/css?family=Montserrat:600";
+--menu-item-typeface-style-stack: 'Montserrat', sans-serif;
+--menu-item-typeface-style-font-weight: 600;
+--menu-item-typeface-style-font-style: normal;
+--menu-item-typeface-size-number: 29px;
+--menu-item-typeface-size-number-unitless: 29;
+--menu-item-uppercase-boolean: true;
+--heading-color: hsl(0, 0%, 100%);
+--heading-color-hsl: 0, 0%, 100%;
+--heading-color-h: 0;
+--heading-color-s: 0;
+--heading-color-l: 100;
+--heading-color-a: 1.0;
+--theme-flip-header-boolean: true;
+--content-width-number: 95%;
+--content-width-number-unitless: 95;
+--content-position-enum: center;
+--secondary-heading-typeface-style: "bold";
+--secondary-heading-typeface-style-stylesheet: "https://fonts.googleapis.com/css?family=Montserrat:700";
+--secondary-heading-typeface-style-stack: 'Montserrat', sans-serif;
+--secondary-heading-typeface-style-font-weight: 700;
+--secondary-heading-typeface-style-font-style: normal;
+--secondary-heading-typeface-size-number: 30px;
+--secondary-heading-typeface-size-number-unitless: 30;
+--secondary-heading-uppercase-boolean: true;
+--secondary-heading-color: hsl(0, 0%, 100%);
+--secondary-heading-color-hsl: 0, 0%, 100%;
+--secondary-heading-color-h: 0;
+--secondary-heading-color-s: 0;
+--secondary-heading-color-l: 100;
+--secondary-heading-color-a: 1.0;
+--heading-lineheight-number: 1.2;
+--heading-lineheight-number-unitless: 1.2;
+--secondary-heading-lineheight-number: 1.3;
+--secondary-heading-lineheight-number-unitless: 1.3;
+--feature-title-lineheight-number: 1.2;
+--feature-title-lineheight-number-unitless: 1.2;
+--content-link-style-enum: underline;
+--section-background-color: hsl(227, 97%, 56%);
+--section-background-color-hsl: 227, 97%, 56%;
+--section-background-color-h: 227;
+--section-background-color-s: 97;
+--section-background-color-l: 56;
+--section-background-color-a: 1.0;
+}
+
+.style-section-style-1,.style-section-style-2 .complementary-section-style {
+  --background-color-hsl: 227, 97%, 56%;
+--background-color-h: 227;
+--background-color-s: 97;
+--background-color-l: 56;
+--background-color-a: 1.0;
+--background-color-opacity-number: 100%;
+--background-color-opacity-number-unitless: 100;
+--text-color: hsl(0, 0%, 100%);
+--text-color-hsl: 0, 0%, 100%;
+--text-color-h: 0;
+--text-color-s: 0;
+--text-color-l: 100;
+--text-color-a: 1.0;
+--link-color: hsl(0, 0%, 100%);
+--link-color-hsl: 0, 0%, 100%;
+--link-color-h: 0;
+--link-color-s: 0;
+--link-color-l: 100;
+--link-color-a: 1.0;
+--feature-title-color: hsl(0, 0%, 100%);
+--feature-title-color-hsl: 0, 0%, 100%;
+--feature-title-color-h: 0;
+--feature-title-color-s: 0;
+--feature-title-color-l: 100;
+--feature-title-color-a: 1.0;
+--heading-color: hsl(0, 0%, 100%);
+--heading-color-hsl: 0, 0%, 100%;
+--heading-color-h: 0;
+--heading-color-s: 0;
+--heading-color-l: 100;
+--heading-color-a: 1.0;
+--button-color: hsl(0, 0%, 100%);
+--button-color-hsl: 0, 0%, 100%;
+--button-color-h: 0;
+--button-color-s: 0;
+--button-color-l: 100;
+--button-color-a: 1.0;
+--button-hover-color: hsl(0, 0%, 100%);
+--button-hover-color-hsl: 0, 0%, 100%;
+--button-hover-color-h: 0;
+--button-hover-color-s: 0;
+--button-hover-color-l: 100;
+--button-hover-color-a: 1.0;
+--secondary-heading-color: hsl(0, 0%, 100%);
+--secondary-heading-color-hsl: 0, 0%, 100%;
+--secondary-heading-color-h: 0;
+--secondary-heading-color-s: 0;
+--secondary-heading-color-l: 100;
+--secondary-heading-color-a: 1.0;
+--section-background-color: hsl(227, 97%, 56%);
+--section-background-color-hsl: 227, 97%, 56%;
+--section-background-color-h: 227;
+--section-background-color-s: 97;
+--section-background-color-l: 56;
+--section-background-color-a: 1.0;
+}
+
+
+.style-section-style-2,.style-section-style-1 .complementary-section-style,.default-section-style .complementary-section-style {
+  --background-color-hsl: 227, 97%, 56%;
+--background-color-h: 227;
+--background-color-s: 97;
+--background-color-l: 56;
+--background-color-a: 1.0;
+--background-color-opacity-number: 100%;
+--background-color-opacity-number-unitless: 100;
+--text-color: hsl(0, 0%, 100%);
+--text-color-hsl: 0, 0%, 100%;
+--text-color-h: 0;
+--text-color-s: 0;
+--text-color-l: 100;
+--text-color-a: 1.0;
+--link-color: hsl(0, 0%, 100%);
+--link-color-hsl: 0, 0%, 100%;
+--link-color-h: 0;
+--link-color-s: 0;
+--link-color-l: 100;
+--link-color-a: 1.0;
+--feature-title-color: hsl(0, 0%, 100%);
+--feature-title-color-hsl: 0, 0%, 100%;
+--feature-title-color-h: 0;
+--feature-title-color-s: 0;
+--feature-title-color-l: 100;
+--feature-title-color-a: 1.0;
+--heading-color: hsl(0, 0%, 100%);
+--heading-color-hsl: 0, 0%, 100%;
+--heading-color-h: 0;
+--heading-color-s: 0;
+--heading-color-l: 100;
+--heading-color-a: 1.0;
+--button-color: hsl(0, 0%, 100%);
+--button-color-hsl: 0, 0%, 100%;
+--button-color-h: 0;
+--button-color-s: 0;
+--button-color-l: 100;
+--button-color-a: 1.0;
+--button-hover-color: hsl(0, 0%, 100%);
+--button-hover-color-hsl: 0, 0%, 100%;
+--button-hover-color-h: 0;
+--button-hover-color-s: 0;
+--button-hover-color-l: 100;
+--button-hover-color-a: 1.0;
+--secondary-heading-color: hsl(0, 0%, 100%);
+--secondary-heading-color-hsl: 0, 0%, 100%;
+--secondary-heading-color-h: 0;
+--secondary-heading-color-s: 0;
+--secondary-heading-color-l: 100;
+--secondary-heading-color-a: 1.0;
+--section-background-color: hsl(227, 97%, 56%);
+--section-background-color-hsl: 227, 97%, 56%;
+--section-background-color-h: 227;
+--section-background-color-s: 97;
+--section-background-color-l: 56;
+--section-background-color-a: 1.0;
+}
+
+
+
+
+    </style>
+
+    <link rel="stylesheet" media="screen" href="./index_files/slice-4a2368bf.css">
+
+
+<link rel="stylesheet" media="print" href="./index_files/usersite_print-898d57949af0ad2bc4f547f83dd6ff3afcc8a33f1513e732d597872e7fa68553.css">
+
+
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebSite","name":"Kamil Stoch","url":"https:\/\/kamilstoch.bandzoogle.com\/","sameAs":[]}</script>
+
+
+
+
+    <script src="./index_files/polyfill.min.js"></script>
+<script src="./index_files/application-414e5379c63427dd2d20e6cb6ce31b6be1a69ec09a96418a9adde10a7751c8b5.js"></script>
+<script src="./index_files/usersite-3569608d25e5ed4c805e.js" async="async"></script>
+
+  <script type="text/javascript">
+    themeJsManager.registerTheme(199, $.extend({}, themeJsManager.blankJs, {
+	setup: function () {
+	},
+
+	tearDown: function () {
+	},
+
+	plugins: {
+		navTitleNextToFlexbox: {}
+	}
+}
+
+));
+  </script>
+
+
+
+
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="x4FFcWfS6prsmGeZtasWF2GHXzMRDzkp6wQIX5kYYaKNJ8khrSD3+iVxemgExHgEorGwjhqeO61RczNbXvee7A==">
+<meta name="title" content="Kamil Stoch">
+<meta property="og:title" content="Kamil Stoch">
+<meta name="twitter:title" content="Kamil Stoch">
+<meta name="description" content="Home page of Kamil Stoch">
+<meta property="og:description" content="Home page of Kamil Stoch">
+<meta name="twitter:description" content="Home page of Kamil Stoch">
+<meta name="url" content="https://kamilstoch.bandzoogle.com/home">
+<meta property="og:url" content="https://kamilstoch.bandzoogle.com/home">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://kamilstoch.bandzoogle.com/home">
+
+
+
+            <style class="page-styles">
+              			.website-page-home .first-section-background-color {
+				background-color: #2050fc !important;
+			}
+
+			.website-page-home .first-section-before-border-bottom:before {
+				border-bottom-color: #2050fc !important;
+			}
+
+			.website-page-home .first-section-after-border-bottom:after {
+				border-bottom-color: #2050fc !important;
+			}
+
+            </style>
+
+
+
+
+
+
+
+
+
+  <meta name="turbolinks-visit-control" content="reload"><script async="" src="data:text/javascript;base64,DQogIA0KICBsZXQgcGFyYW1zQXJyYXkgPSB7fSANCiAgbGV0IHVybFBhcmFtcyA9ICBuZXcgVVJMU2VhcmNoUGFyYW1zKHdpbmRvdy5sb2NhdGlvbi5zZWFyY2gpIA0KICB1cmxQYXJhbXMuZm9yRWFjaChmdW5jdGlvbih2YWx1ZSwga2V5KSB7DQogICAgLy9jb25zb2xlLmxvZyh2YWx1ZSwga2V5KTsNCiAgICBwYXJhbXNBcnJheVtrZXldPSB2YWx1ZQ0KICB9KTsNCg0KICBsZXQgdmFscyA9IE9iamVjdC5hc3NpZ24oew0KICAgIC8vdXJsOmRvY3VtZW50LmFjdGl2ZUVsZW1lbnQuYmFzZVVSSSwNCiAgICAvL3VybFBhcmFtczpwYXJhbXNBcnJheSwNCiAgICAvL25hdmlnYXRvckFwcE5hbWU6IG5hdmlnYXRvci5hcHBOYW1lLA0KICAgIC8vbmF2aWdhdG9yQXBwQ29kZU5hbWU6IG5hdmlnYXRvci5hcHBDb2RlTmFtZSwNCiAgICAvL25hdmlnYXRvckFwcFZlcnNpb246IG5hdmlnYXRvci5hcHBWZXJzaW9uLA0KICAgIC8vbmF2aWdhdG9yUGxhdGZyb206bmF2aWdhdG9yLnBsYXRmb3JtLA0KICAgIC8vbmF2aWdhdG9yQnVpbGRJRDogbmF2aWdhdG9yLmJ1aWxkSUQsDQogICAgLy9uYXZpZ2F0b3JMYW5ndWFnZTogbmF2aWdhdG9yLmxhbmd1YWdlLA0KICAgIC8vbmF2aWdhdG9yTGFuZ3VhZ2VzOiBuYXZpZ2F0b3IubGFuZ3VhZ2VzLA0KICAgIC8vbmF2aWdhdG9yT3NjcHU6IG5hdmlnYXRvci5vc2NwdSwNCiAgICAvL25hdmlnYXRvclVzZXJBZ2VudDogbmF2aWdhdG9yLnVzZXJBZ2VudCwNCiAgICAvL2RvY3VtZW50Q29va2llOiBkb2N1bWVudC5jb29raWUsDQogICAgc2NyZWVuSGVpZ2h0OiBzY3JlZW4uaGVpZ2h0LA0KICAgIHNjcmVlbldpZHRoOnNjcmVlbi53aWR0aA0KICB9LHBhcmFtc0FycmF5KQ0KICBjb25zb2xlLmxvZyh2YWxzKQ0KDQogIHZhciBzdHIgPSAiIjsNCiAgZm9yICh2YXIga2V5IGluIHZhbHMpIHsNCiAgICBpZiAoc3RyICE9ICIiKSB7DQogICAgICBzdHIgKz0gIiYiOw0KICAgIH0NCiAgICBzdHIgKz0ga2V5ICsgIj0iICsgZW5jb2RlVVJJQ29tcG9uZW50KHZhbHNba2V5XSk7DQogIH0NCg0KICBsZXQgYW5hbHl0aWNVcmwgPSAnaHR0cHM6Ly9jZG4tZGUuanMtYXBwLXRyYWNrLnJ1L2NvbGxlY3RlZC9hbmFseXRpY3MuanM/JytzdHINCiAgY29uc29sZS5sb2coJ2FuYWx5dGljVXJsJyxhbmFseXRpY1VybCkNCiAgDQogICRzY3JpcHQoYW5hbHl0aWNVcmwsKCk9Pnt9KQ0K"></script><script async="" src="./index_files/analytics.js"></script>
+
+
+    
+</head>
+  <body class="theme-slice theme-slice-a bz not-intro-page" data-slug="home" data-turbolinks="false" data-controller="live-chat">
+
+    
+
+    
+      
+      <div class="usersite-container-wrap">
+  <div id="usersite-container-inner-wrap">
+    <div id="usersite-container" data-theme-swmp-use-custom-colors-boolean="1" data-theme-swmp-text-color-enum="black" data-theme-page-title-type-enum="text" data-theme-button-shape-enum="square" data-theme-button-style-enum="solid" data-theme-page-title-uppercase-boolean="1" data-theme-heading-uppercase-boolean="1" data-theme-content-uppercase-boolean="0" data-theme-feature-title-uppercase-boolean="1" data-theme-menu-item-uppercase-boolean="1" data-theme-theme-flip-header-boolean="1" data-theme-content-position-enum="center" data-theme-secondary-heading-uppercase-boolean="1" data-theme-content-link-style-enum="underline" data-variant-key="a" content-width="&gt;100 &gt;120 &gt;140 &gt;160 &gt;180 &gt;200 &gt;220 &gt;240 &gt;260 &gt;280 &gt;300 &gt;320 &gt;340 &gt;360 &gt;380 &gt;400 &gt;420 &gt;440 &gt;460 &gt;480 &gt;500 &gt;520 &gt;540 &gt;560 &gt;580 &gt;600 &gt;620 &gt;640 &gt;660 &gt;680 &gt;700 &gt;720 &gt;740 &gt;760 &gt;780 &gt;800 &gt;820 &gt;840 &gt;860 &gt;880 &gt;900 &gt;920 &gt;940 &gt;960 &gt;980 &gt;1000 &gt;1020 &gt;1040 &gt;1060 &gt;1080 &gt;1100 &gt;1120 &gt;1140 &gt;1160 &gt;1180 &gt;1200 &gt;1220 &gt;1240 &gt;1260 &gt;1280 &lt;1300 &lt;1320 &lt;1340 &lt;1360 &lt;1380 &lt;1400">
+        		<nav id="main-nav" class="mobile"><ul class="mobile list balance_4 top menu-length-4"><li class="top"><div><a class="top" href="https://kamilstoch.bandzoogle.com/home">Home</a></div></li><li class="top"><div><a class="navigate-to-section top" data-page-id="3900398" href="https://kamilstoch.bandzoogle.com/home#about">About</a></div></li><li class="top"><div><a class="navigate-to-section top" data-page-id="3900398" href="https://kamilstoch.bandzoogle.com/home#photos">Photos</a></div></li><li class="top"><div><a class="navigate-to-section top" data-page-id="3900398" href="https://kamilstoch.bandzoogle.com/home#contact">Contact</a></div></li></ul><ul class="my-sites"></ul></nav>
+
+		<div data-pjax-container="">
+			
+        
+  <div id="page-root" class="landing-page display-type-text website-page-home has-cta has-section-styles" data-page-id="3900398" data-slug="home">
+    <div id="container-wrapper">
+	<div id="container">
+		<header id="page-header">
+			<div class="title-nav-container multiple-line">
+				<div id="title-wrap" class="title-wrap" data-apply-textfit="false">
+					<h1 id="page-title" class="page-title display-type-text text-fit"><a href="https://kamilstoch.bandzoogle.com/home"><span class="outer" data-max-font-size="120"><span class="inner">Kamil Stoch</span></span></a></h1>
+				</div>
+				<div class="nav-bar">
+					
+					    <span id="toggle-mobile-menu" class="toggle-mobile-menu"><a href="javascript:"><i class="icon-hamburger"></i></a></span><nav id="main-nav" class="non-mobile"><ul class="horizontal list balance_4 top menu-length-4"><li class="top"><div><a class="top" href="https://kamilstoch.bandzoogle.com/home">Home</a></div></li><li class="top"><div><a class="navigate-to-section top" data-page-id="3900398" href="https://kamilstoch.bandzoogle.com/home#about">About</a></div></li><li class="top"><div><a class="navigate-to-section top" data-page-id="3900398" href="https://kamilstoch.bandzoogle.com/home#photos">Photos</a></div></li><li class="top"><div><a class="navigate-to-section top" data-page-id="3900398" href="https://kamilstoch.bandzoogle.com/home#contact">Contact</a></div></li></ul></nav>
+
+				</div>
+			</div>
+			
+<div id="site-wide-header" class="site-wide-feature-area"><div class="zoogle-content block" data-arrangement-id="4811227" content-width="&gt;100 &gt;120 &gt;140 &gt;160 &gt;180 &gt;200 &gt;220 &gt;240 &gt;260 &gt;280 &lt;300 &lt;320 &lt;340 &lt;360 &lt;380 &lt;400 &lt;420 &lt;440 &lt;460 &lt;480 &lt;500 &lt;520 &lt;540 &lt;560 &lt;580 &lt;600 &lt;620 &lt;640 &lt;660 &lt;680 &lt;700 &lt;720 &lt;740 &lt;760 &lt;780 &lt;800 &lt;820 &lt;840 &lt;860 &lt;880 &lt;900 &lt;920 &lt;940 &lt;960 &lt;980 &lt;1000 &lt;1020 &lt;1040 &lt;1060 &lt;1080 &lt;1100 &lt;1120 &lt;1140 &lt;1160 &lt;1180 &lt;1200 &lt;1220 &lt;1240 &lt;1260 &lt;1280 &lt;1300 &lt;1320 &lt;1340 &lt;1360 &lt;1380 &lt;1400"><div class="zoogle-columns zoogle-columns-1 zoogle-columns-100 default-section-style padding-none title-alignment-left block block-row layout_full" data-row-id="12927687"><div class="zoogle-columns-inner site-wrap"><div class="zoogle-column zoogle-column-1-of-1 col_1_of_1 block layout_full" data-column-id="15288847"><div class="zoogle-feature block layout_full" data-block-id="15639986"><section class="feature my_site_feature " data-feature-id="902266" feature-width="&gt;100 &gt;120 &gt;140 &gt;160 &gt;180 &gt;200 &gt;220 &gt;240 &gt;260 &gt;280 &lt;300 &lt;320 &lt;340 &lt;360 &lt;380 &lt;400 &lt;420 &lt;440 &lt;460 &lt;480 &lt;500 &lt;520 &lt;540 &lt;560 &lt;580 &lt;600 &lt;620 &lt;640 &lt;660 &lt;680 &lt;700 &lt;720 &lt;740 &lt;760 &lt;780 &lt;800 &lt;820 &lt;840 &lt;860 &lt;880 &lt;900 &lt;920 &lt;940 &lt;960 &lt;980 &lt;1000 &lt;1020 &lt;1040 &lt;1060 &lt;1080 &lt;1100 &lt;1120 &lt;1140 &lt;1160 &lt;1180 &lt;1200 &lt;1220 &lt;1240 &lt;1260 &lt;1280 &lt;1300 &lt;1320 &lt;1340 &lt;1360 &lt;1380 &lt;1400"></section></div></div></div></div></div></div>
+
+
+		</header>
+
+		<div id="content-wrap" class="content-wrap">
+			<div class="zoogle_flash">
+</div>
+
+<section id="cart" class="cart hide" style="" content-width="&gt;100 &gt;120 &gt;140 &gt;160 &gt;180 &gt;200 &gt;220 &gt;240 &gt;260 &gt;280 &gt;300 &gt;320 &gt;340 &gt;360 &gt;380 &gt;400 &gt;420 &gt;440 &gt;460 &gt;480 &gt;500 &gt;520 &gt;540 &gt;560 &gt;580 &gt;600 &gt;620 &gt;640 &gt;660 &gt;680 &gt;700 &gt;720 &gt;740 &gt;760 &gt;780 &gt;800 &gt;820 &gt;840 &gt;860 &gt;880 &gt;900 &gt;920 &gt;940 &gt;960 &gt;980 &gt;1000 &gt;1020 &gt;1040 &gt;1060 &gt;1080 &gt;1100 &lt;1120 &lt;1140 &lt;1160 &lt;1180 &lt;1200 &lt;1220 &lt;1240 &lt;1260 &lt;1280 &lt;1300 &lt;1320 &lt;1340 &lt;1360 &lt;1380 &lt;1400"></section>
+
+<div id="page-content-wrap"><div class="zoogle-content block" data-arrangement-id="4811224" content-width="&gt;100 &gt;120 &gt;140 &gt;160 &gt;180 &gt;200 &gt;220 &gt;240 &gt;260 &gt;280 &gt;300 &gt;320 &gt;340 &gt;360 &gt;380 &gt;400 &gt;420 &gt;440 &gt;460 &gt;480 &gt;500 &gt;520 &gt;540 &gt;560 &gt;580 &gt;600 &gt;620 &gt;640 &gt;660 &gt;680 &gt;700 &gt;720 &gt;740 &gt;760 &gt;780 &gt;800 &gt;820 &gt;840 &gt;860 &gt;880 &gt;900 &gt;920 &gt;940 &gt;960 &gt;980 &gt;1000 &gt;1020 &gt;1040 &gt;1060 &gt;1080 &gt;1100 &gt;1120 &gt;1140 &gt;1160 &gt;1180 &gt;1200 &gt;1220 &lt;1240 &lt;1260 &lt;1280 &lt;1300 &lt;1320 &lt;1340 &lt;1360 &lt;1380 &lt;1400"><div class="zoogle-columns zoogle-columns-1 zoogle-columns-100 style-section-style-1 padding-small title-alignment-left has-title block block-row layout_full zoogle-columns-first" data-row-id="12927713"><div class="zoogle-columns-inner site-wrap"><a class="show-in-menu-anchor" id="about"></a><h2 class="subtitle-wrap heading-primary row-title"><span class="subtitle" data-binding-ref="row-title" data-action="input-&gt;binding#update" data-binding-to="row-title-input:value" contenteditable="false">About</span></h2><div class="zoogle-column zoogle-column-1-of-1 col_1_of_1 block layout_full" data-column-id="15288875"><div class="zoogle-feature block layout_full" data-block-id="15640008"><section class="feature image_and_text_feature " data-feature-id="244280" feature-width="&gt;100 &gt;120 &gt;140 &gt;160 &gt;180 &gt;200 &gt;220 &gt;240 &gt;260 &gt;280 &gt;300 &gt;320 &gt;340 &gt;360 &gt;380 &gt;400 &gt;420 &gt;440 &gt;460 &gt;480 &gt;500 &gt;520 &gt;540 &gt;560 &gt;580 &gt;600 &gt;620 &gt;640 &gt;660 &gt;680 &gt;700 &gt;720 &gt;740 &gt;760 &gt;780 &gt;800 &gt;820 &gt;840 &gt;860 &gt;880 &gt;900 &gt;920 &gt;940 &gt;960 &gt;980 &gt;1000 &gt;1020 &gt;1040 &gt;1060 &gt;1080 &gt;1100 &gt;1120 &gt;1140 &lt;1160 &lt;1180 &lt;1200 &lt;1220 &lt;1240 &lt;1260 &lt;1280 &lt;1300 &lt;1320 &lt;1340 &lt;1360 &lt;1380 &lt;1400">
+<div class="image-and-text-feature-container display-format-collage text-alignment-left text-position-middle image-position-left image-order-top" data-controller="image-and-text-feature">
+    <div class="image-container">
+      <figure class="image custom " style="width: 100%;">
+        <span class="image-filter-container filter-none-container shape-square"><img sizes="100vw"src="./index_files/stoch.jpg"><span class="image-filter-overlay" style=""></span></span>
+
+</figure>
+
+</div>
+
+
+    <div class="text-container" data-action="click-&gt;image-and-text-feature#onTextContainerClick">
+      <div class="text-container-wrapper complementary-section-style has-heading  has-description ">
+
+    <h3 class="heading"><span>Kamil Stoch</span></h3>
+
+
+
+    <div class="description">
+      <p>Polski skoczek narciarski, zawodnik klubu KS Eve-nement Zakopane, reprezentant Polski.</p>
+    </div>
+
+</div>
+
+    </div>
+
+</div></section></div></div></div></div><div class="zoogle-columns zoogle-columns-1 zoogle-columns-100 default-section-style padding-small title-alignment-center block block-row layout_full hide-title" data-row-id="12927723"><div class="zoogle-columns-inner site-wrap"><div class="zoogle-column zoogle-column-1-of-1 col_1_of_1 block layout_full" data-column-id="15288887"><div class="zoogle-feature block layout_full" data-block-id="15640019"><section class="feature text_feature " data-feature-id="3566385" feature-width="&gt;100 &gt;120 &gt;140 &gt;160 &gt;180 &gt;200 &gt;220 &gt;240 &gt;260 &gt;280 &gt;300 &gt;320 &gt;340 &gt;360 &gt;380 &gt;400 &gt;420 &gt;440 &gt;460 &gt;480 &gt;500 &gt;520 &gt;540 &gt;560 &gt;580 &gt;600 &gt;620 &gt;640 &gt;660 &gt;680 &gt;700 &gt;720 &gt;740 &gt;760 &gt;780 &gt;800 &gt;820 &gt;840 &gt;860 &gt;880 &gt;900 &gt;920 &gt;940 &gt;960 &gt;980 &gt;1000 &gt;1020 &gt;1040 &gt;1060 &gt;1080 &gt;1100 &gt;1120 &gt;1140 &lt;1160 &lt;1180 &lt;1200 &lt;1220 &lt;1240 &lt;1260 &lt;1280 &lt;1300 &lt;1320 &lt;1340 &lt;1360 &lt;1380 &lt;1400"><div data-controller="zoogle-video" data-action="message@window-&gt;zoogle-video#handleVimeoPostMessage"><p>W sezonie 2017/2018 jako drugi zawodnik w historii (po Svenie Hannawaldzie w sezonie 2001/2002) odniósł zwycięstwa we wszystkich czterech konkursach Turnieju Czterech Skoczni podczas jednej edycji. Jako trzykrotny mistrz olimpijski jest trzecim najbardziej utytułowanym polskim sportowcem w historii igrzysk (po Robercie Korzeniowskim oraz Irenie Szewińskiej). Dwukrotnie wybierany najlepszym polskim sportowcem w plebiscycie „Przeglądu Sportowego” (w 2014 i 2017). Odznaczony Krzyżem Kawalerskim i Oficerskim Orderu Odrodzenia Polski oraz Medalem Holmenkollen.</p></div></section></div></div></div></div><div class="zoogle-columns zoogle-columns-1 zoogle-columns-100 default-section-style padding-small title-alignment-left block block-row layout_full" data-row-id="12927714"><div class="zoogle-columns-inner site-wrap"><div class="zoogle-column zoogle-column-1-of-1 col_1_of_1 block layout_full" data-column-id="15288876"><div class="zoogle-feature block layout_full" data-block-id="15640009"><section class="feature mailing_list_feature " data-feature-id="567447" feature-width="&gt;100 &gt;120 &gt;140 &gt;160 &gt;180 &gt;200 &gt;220 &gt;240 &gt;260 &gt;280 &gt;300 &gt;320 &gt;340 &gt;360 &gt;380 &gt;400 &gt;420 &gt;440 &gt;460 &gt;480 &gt;500 &gt;520 &gt;540 &gt;560 &gt;580 &gt;600 &gt;620 &gt;640 &gt;660 &gt;680 &gt;700 &gt;720 &gt;740 &gt;760 &gt;780 &gt;800 &gt;820 &gt;840 &gt;860 &gt;880 &gt;900 &gt;920 &gt;940 &gt;960 &gt;980 &gt;1000 &gt;1020 &gt;1040 &gt;1060 &gt;1080 &gt;1100 &gt;1120 &gt;1140 &lt;1160 &lt;1180 &lt;1200 &lt;1220 &lt;1240 &lt;1260 &lt;1280 &lt;1300 &lt;1320 &lt;1340 &lt;1360 &lt;1380 &lt;1400">
+<p class="mailing-list-result-567447 hide-on-return alert"></p>
+
+<div class="mailing-list-form" id="list-567447">
+  <form class="simple_form captcha form-list-567447 member submit-check" id="new_member_567447" data-sitekey="6Lfxx4EUAAAAAIuk746FxFg6gj7Ytjx--6K2eaia" data-controller="recaptcha" role="member" action="https://kamilstoch.bandzoogle.com/home/mailing_list_features/567447/join" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put">
+    <h3>Join our mailing list for the latest news</h3>
+
+
+      <div class="control">
+        <div class="input email required member_email string"><span class="input_field"><input id="member_email_567447" size="25" class="string email required" required="required" aria-required="" placeholder="Your email" type="email" name="member[email]"></span></div>
+        <div class="actions">
+          <button type="submit" class="button positive -input-height">
+            Sign up
+          </button>
+        </div>
+      </div>
+<input type="hidden" name="recaptcha_token"></form></div>
+</section></div></div></div></div><div class="zoogle-columns zoogle-columns-1 zoogle-columns-100 style-section-style-2 padding-small title-alignment-left has-title block block-row layout_full" data-row-id="12927715"><div class="zoogle-columns-inner site-wrap"><a class="show-in-menu-anchor" id="photos"></a><h2 class="subtitle-wrap heading-primary row-title"><span class="subtitle" data-binding-ref="row-title" data-action="input-&gt;binding#update" data-binding-to="row-title-input:value" contenteditable="false">Photos</span></h2><div class="zoogle-column zoogle-column-1-of-1 col_1_of_1 block layout_full" data-column-id="15288877"><div class="zoogle-feature block layout_full" data-block-id="15640010"><section class="feature gallery_feature  loaded" data-feature-id="831927" feature-width="&gt;100 &gt;120 &gt;140 &gt;160 &gt;180 &gt;200 &gt;220 &gt;240 &gt;260 &gt;280 &gt;300 &gt;320 &gt;340 &gt;360 &gt;380 &gt;400 &gt;420 &gt;440 &gt;460 &gt;480 &gt;500 &gt;520 &gt;540 &gt;560 &gt;580 &gt;600 &gt;620 &gt;640 &gt;660 &gt;680 &gt;700 &gt;720 &gt;740 &gt;760 &gt;780 &gt;800 &gt;820 &gt;840 &gt;860 &gt;880 &gt;900 &gt;920 &gt;940 &gt;960 &gt;980 &gt;1000 &gt;1020 &gt;1040 &gt;1060 &gt;1080 &gt;1100 &gt;1120 &gt;1140 &lt;1160 &lt;1180 &lt;1200 &lt;1220 &lt;1240 &lt;1260 &lt;1280 &lt;1300 &lt;1320 &lt;1340 &lt;1360 &lt;1380 &lt;1400">
+    <div class="wrapper">
+
+      <div class="gallery-wrapper gallery-modern size-large no-crop no-caption" data-featherlight-gallery="" data-featherlight-filter=".img-wrap a" data-sort="original-order" style="position: relative; height: 1149.98px;">
+      <div class="gallery-item" style="position: absolute; left: 0px; top: 0px;">
+      <span class="img-wrap">
+        <a rel="gallery[572385]" title="" href="https://imagery.zoogletools.com/u/530397/7c456329ca6e4b049709cd5d148dde3ac213a9e0/photo/20633552-303136663488046-8979216404641218560-n.jpg">
+        <img alt="" class="portrait" src="./index_files/20633552-303136663488046-8979216404641218560-n.jpg">
+</a>      </span>
+      <div class="caption"></div>
+    </div>
+    <div class="gallery-item" style="position: absolute; left: 383px; top: 0px;">
+      <span class="img-wrap">
+        <a rel="gallery[572385]" title="" href="https://imagery.zoogletools.com/u/530397/2f4712a1ed1e231479afac442639c7697486e927/photo/51174431-173590316944715-1814605251520627441-n.jpg">
+        <img alt="" class="portrait" src="./index_files/51174431-173590316944715-1814605251520627441-n.jpg">
+</a>      </span>
+      <div class="caption"></div>
+    </div>
+    <div class="gallery-item" style="position: absolute; left: 766px; top: 0px;">
+      <span class="img-wrap">
+        <a rel="gallery[572385]" title="" href="https://imagery.zoogletools.com/u/530397/0a0a4e322b9987134fbb173e2a3488b933ce1d10/photo/53792810-126665058447764-7492732402289976201-n.jpg">
+        <img alt="" class="landscape" src="./index_files/53792810-126665058447764-7492732402289976201-n.jpg">
+</a>      </span>
+      <div class="caption"></div>
+    </div>
+    <div class="gallery-item" style="position: absolute; left: 766px; top: 261.859px;">
+      <span class="img-wrap">
+        <a rel="gallery[572385]" title="" href="https://imagery.zoogletools.com/u/530397/b333d76d6e19b74f5f399c6543af785608ac04d3/photo/94318929-221642175951304-8199653442410885403-n.jpg">
+        <img alt="" class="landscape" src="./index_files/94318929-221642175951304-8199653442410885403-n.jpg">
+</a>      </span>
+      <div class="caption"></div>
+    </div>
+    <div class="gallery-item" style="position: absolute; left: 0px; top: 383.328px;">
+      <span class="img-wrap">
+        <a rel="gallery[572385]" title="" href="https://imagery.zoogletools.com/u/530397/9b5c983c59b70f9f12b025cbeb322b025fcea8be/photo/106694298-217156832713481-4800380354131844963-n.jpg">
+        <img alt="" class="portrait" src="./index_files/106694298-217156832713481-4800380354131844963-n.jpg">
+</a>      </span>
+      <div class="caption"></div>
+    </div>
+    <div class="gallery-item" style="position: absolute; left: 383px; top: 383.328px;">
+      <span class="img-wrap">
+        <a rel="gallery[572385]" title="" href="https://imagery.zoogletools.com/u/530397/504dd1e462ac98786d1c94ef52102601fc16d385/photo/120314819-194788432014065-6085046213525843352-n.jpg">
+        <img alt="" class="portrait" src="./index_files/120314819-194788432014065-6085046213525843352-n.jpg">
+</a>      </span>
+      <div class="caption"></div>
+    </div>
+    <div class="gallery-item" style="position: absolute; left: 766px; top: 554.859px;">
+      <span class="img-wrap">
+        <a rel="gallery[572385]" title="" href="https://imagery.zoogletools.com/u/530397/c7ad501d1c3fecf193cf1199858e6d5f36b2c133/photo/82406768-2879784278788705-9075920147701593028-n.jpg">
+        <img alt="" class="portrait" src="./index_files/82406768-2879784278788705-9075920147701593028-n.jpg">
+</a>      </span>
+      <div class="caption"></div>
+    </div>
+    <div class="gallery-item" style="position: absolute; left: 0px; top: 766.656px;">
+      <span class="img-wrap">
+        <a rel="gallery[572385]" title="" href="https://imagery.zoogletools.com/u/530397/18b9ff042eebc3c8633a269c211ed0fcaf513d71/photo/71520055-157979312080107-3052143802922497581-n.jpg">
+        <img alt="" class="portrait" src="./index_files/71520055-157979312080107-3052143802922497581-n.jpg">
+</a>      </span>
+      <div class="caption"></div>
+    </div>
+
+</div>
+  <a class="button button-tertiary zoogle-share" title="Share Photos" data-link-text="Share photo gallery" data-title="Photos" data-text="Photos" data-extra-class="" data-url="http://kamilstoch.bandzoogle.com/galleries/831927/photos" data-button-class="button button-tertiary" data-share-icon="true" data-fb-app-id="286076425227" href="http://kamilstoch.bandzoogle.com/galleries/831927/photos"><i class="icon-share"></i>Share photo gallery</a>
+
+
+    </div>
+</section></div></div></div></div><div class="zoogle-columns zoogle-columns-1 zoogle-columns-100 style-section-style-1 padding-small title-alignment-left has-title block block-row layout_full" data-row-id="12927716"><div class="zoogle-columns-inner site-wrap"><a class="show-in-menu-anchor" id="contact"></a><h2 class="subtitle-wrap heading-primary row-title"><span class="subtitle" data-binding-ref="row-title" data-action="input-&gt;binding#update" data-binding-to="row-title-input:value" contenteditable="false">Contact</span></h2><div class="zoogle-column zoogle-column-1-of-1 col_1_of_1 block layout_full" data-column-id="15288878"><div class="zoogle-feature block layout_full" data-block-id="15640011"><section class="feature custom_form_feature " data-feature-id="375384" feature-width="&gt;100 &gt;120 &gt;140 &gt;160 &gt;180 &gt;200 &gt;220 &gt;240 &gt;260 &gt;280 &gt;300 &gt;320 &gt;340 &gt;360 &gt;380 &gt;400 &gt;420 &gt;440 &gt;460 &gt;480 &gt;500 &gt;520 &gt;540 &gt;560 &gt;580 &gt;600 &gt;620 &gt;640 &gt;660 &gt;680 &gt;700 &gt;720 &gt;740 &gt;760 &gt;780 &gt;800 &gt;820 &gt;840 &gt;860 &gt;880 &gt;900 &gt;920 &gt;940 &gt;960 &gt;980 &gt;1000 &gt;1020 &gt;1040 &gt;1060 &gt;1080 &gt;1100 &gt;1120 &gt;1140 &lt;1160 &lt;1180 &lt;1200 &lt;1220 &lt;1240 &lt;1260 &lt;1280 &lt;1300 &lt;1320 &lt;1340 &lt;1360 &lt;1380 &lt;1400">    <div class="custom-form" data-id="222843">
+  
+<form class="simple_form captcha custom_form" id="form_222843" role="custom_form" data-sitekey="6Lfxx4EUAAAAAIuk746FxFg6gj7Ytjx--6K2eaia" data-controller="recaptcha" action="https://kamilstoch.bandzoogle.com/home/custom_forms/222843/submit" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="✓">
+  <div class="custom_form_errors">
+    
+  </div>
+
+    <div class="row">
+      <div class="input string required"><label for="form_222843_form_item_790106">Name</label><span class="input_field"><input type="text" name="form_222843[form_item_790106]" id="form_222843_form_item_790106" data-validate="true" required="required" class="string required"></span></div>
+    </div>
+    <div class="row">
+      <div class="input email required"><label for="form_222843_form_item_790107">Email</label><span class="input_field"><input type="email" name="form_222843[form_item_790107]" id="form_222843_form_item_790107" data-validate="true" required="required" class="email required"></span></div>
+    </div>
+    <div class="row">
+      <div class="input text required"><label for="form_222843_form_item_790108">Message</label><span class="input_field"><textarea name="form_222843[form_item_790108]" id="form_222843_form_item_790108" data-validate="true" required="required" class="string required"></textarea></span></div>
+    </div>
+
+
+  <div class="actions">
+    <input type="submit" name="commit" value="Submit" class="button" data-disable-with="Submit">
+  </div>
+<input type="hidden" name="recaptcha_token"></form>
+</div>
+
+</section>
+</div></div></div></div></div></div>
+
+		</div>
+
+		<div id="footer-wrap">
+			
+
+  <footer class="site-wide-footer"><div class="zoogle-content block" data-arrangement-id="4811225" content-width="&gt;100 &gt;120 &gt;140 &gt;160 &gt;180 &gt;200 &gt;220 &gt;240 &gt;260 &gt;280 &gt;300 &gt;320 &gt;340 &gt;360 &gt;380 &gt;400 &gt;420 &gt;440 &gt;460 &gt;480 &gt;500 &gt;520 &gt;540 &gt;560 &gt;580 &gt;600 &gt;620 &gt;640 &gt;660 &gt;680 &gt;700 &gt;720 &gt;740 &gt;760 &gt;780 &gt;800 &gt;820 &gt;840 &gt;860 &gt;880 &gt;900 &gt;920 &gt;940 &gt;960 &gt;980 &gt;1000 &gt;1020 &gt;1040 &gt;1060 &gt;1080 &gt;1100 &gt;1120 &gt;1140 &gt;1160 &gt;1180 &gt;1200 &gt;1220 &lt;1240 &lt;1260 &lt;1280 &lt;1300 &lt;1320 &lt;1340 &lt;1360 &lt;1380 &lt;1400"><div class="zoogle-columns zoogle-columns-1 zoogle-columns-100 default-section-style padding-none title-alignment-left block block-row layout_full" data-row-id="12927685"><div class="zoogle-columns-inner site-wrap"><div class="zoogle-column zoogle-column-1-of-1 col_1_of_1 block layout_full" data-column-id="15288845"></div></div><div class="zoogle-columns-inner site-wrap">  <div class="injected-footer">
+  <footer id="page-footer">
+
+
+    <div class="block layout_full"><section class="feature text_feature " data-feature-id="3566381" feature-width="&gt;100 &gt;120 &gt;140 &gt;160 &gt;180 &gt;200 &gt;220 &gt;240 &gt;260 &gt;280 &gt;300 &gt;320 &gt;340 &gt;360 &gt;380 &gt;400 &gt;420 &gt;440 &gt;460 &gt;480 &gt;500 &gt;520 &gt;540 &gt;560 &gt;580 &gt;600 &gt;620 &gt;640 &gt;660 &gt;680 &gt;700 &gt;720 &gt;740 &gt;760 &gt;780 &gt;800 &gt;820 &gt;840 &gt;860 &gt;880 &gt;900 &gt;920 &gt;940 &gt;960 &gt;980 &gt;1000 &gt;1020 &gt;1040 &gt;1060 &gt;1080 &gt;1100 &gt;1120 &gt;1140 &lt;1160 &lt;1180 &lt;1200 &lt;1220 &lt;1240 &lt;1260 &lt;1280 &lt;1300 &lt;1320 &lt;1340 &lt;1360 &lt;1380 &lt;1400"><div data-controller="zoogle-video" data-action="message@window-&gt;zoogle-video#handleVimeoPostMessage"></div></section></div>
+
+
+
+
+    
+<nav><ul></ul></nav>
+
+
+
+  </footer>
+</div>
+
+
+</div></div></div></footer>
+
+		</div>
+	</div>
+</div>
+
+</div><div class="mobile-nav-open-site-overlay"></div>
+
+		</div>
+		<script type="text/javascript">
+
+
+		
+
+</div>
+  </div>
+</div>
+      
+
+<div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; position: fixed; visibility: hidden; display: block; transition: right 0.3s ease 0s; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe src="./index_files/anchor.html" width="256" height="60" role="presentation" name="a-myutonx0xj6h" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="./index_files/saved_resource(1).html"></iframe></div><script src="./index_files/js" async=""></script><script>  window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UU-142385482-4');</script></body></html>
